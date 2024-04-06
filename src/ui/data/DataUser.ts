@@ -2,8 +2,8 @@ import { FormValues } from "../pages/SignupPage";
 
 export let usersData: FormValues = {
   title: "Mrs.",
-  name: "Becca Smith",
-  email: "BeccaBe@qa.com",
+  name: "Sophia Smith",
+  email: "SophiaSmith@qa.com",
   password: "password123",
   dob: {
     day: "27",
@@ -12,7 +12,7 @@ export let usersData: FormValues = {
   },
   signupNewsletter: true,
   receiveOffers: false,
-  firstName: "Becca",
+  firstName: "Sophia",
   lastName: "Smith",
   company: "Unemployment Corp",
   address: "123 Main St",
