@@ -14,7 +14,7 @@ test.describe('Contact us:', () => {
 		await page.type('input[data-qa="subject"]', faker.lorem.sentence());
 		await page.type('input[data-qa="subject"]', faker.lorem.paragraph());
 
-		await page.setInputFiles('input[name="upload_file"]', './config/contact-us.json');
+		await page.setInputFiles('input[name="upload_file"]', './src/config/contact-us.json');
 
 		await page.on('dialog', (dialog) => dialog.accept());
 		await page.click('input[data-qa="submit-button"]');
